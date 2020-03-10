@@ -1,0 +1,23 @@
+/* place comments
+Author:
+Date:
+Time:
+Version:
+*/
+
+body{
+background-color: lightblue;
+}
+section{
+ background-color: orange;
+}
+    #testimonials{
+        background-color: chocolate
+    }
+p{ 
+    background-color: red;
+}
+
+.paragraph1{
+    background-color: yellow;
+}
