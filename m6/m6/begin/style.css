@@ -21,3 +21,8 @@ p{
 .paragraph1{
     background-color: yellow;
 }
+ul{
+    background-color: blanchedalmond;
+    list-style: none;
+    
+}
