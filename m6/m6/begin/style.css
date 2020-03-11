@@ -9,7 +9,7 @@ body{
 background-color: lightblue;
 }
 section{
- background-color: orange;
+ background-color: chocolate;
 }
     #testimonials{
         background-color: chocolate
@@ -22,7 +22,17 @@ p{
     background-color: yellow;
 }
 ul{
-    background-color: blanchedalmond;
     list-style: none;
-    
+    }
+    ul li{
+        display: inline-block;
+        width: 200px;
+        border-color: brown;
+        border-style: groove;
+        background-color: blanchedalmond;
+border-left: 10px solid chocolate;
+border-right: 10px solid chocolate;
+
+        margin: 10px 20px 10px 5px;
+        padding: 10px;
 }
