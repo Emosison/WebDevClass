@@ -1,0 +1,83 @@
+
+<html lang="en-us">
+<head>  
+    <link rel="stylesheet" href="SurveyFormStyle.css">
+
+</head>
+<body>
+
+    <h1 id="title">Sports & Physical Activity in San Antonio</h1>
+    <p id="description" in p text> Please complete and submit when finished for an insight on most favored sports and physical activites within the community. 
+        
+    </p>
+  <div>
+<form id="survey-form" id="name">
+<label id="name-label" for="name">Name</label><br>
+<input type="text" id="name" placeholder="Enter your full name" required><br>
+
+
+<label id="email-label" for="email">Email</label><br>
+<input type="email" id="email" placeholder="Enter your email" required><br>
+
+
+<label id="number-label" for="number">Age</label><br>
+<input type="number" id="number" min="13" max="100" placeholder="Age (required)" required>
+
+    <p>What is your gender?</p>
+<select id="dropdown" name="gender" required>
+    <option disabled selected value>Select one</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</div>
+<br>
+</select>
+<div>
+<p id="hours">How many days a week are you physically active or workout for atleast 45 minutes?</p>
+ <label>
+     <input name="hours" value="1-2days" type="radio">1-2 Days <br>
+     <input name="hours" value="3-5ays" type="radio">3-5 Days <br>
+     <input name="hours" value="6-7days" type="radio">6-7 Days
+ </label>
+</div>
+
+<div>
+<p id="sports-select">Which activites do you partake in? (Select all that apply)</p>
+<label>
+    <input name="activities" value="Basketball" type="checkbox">Basketball
+    <input name="activities" value="Soccer" type="checkbox">Soccer
+    <input name="activities" value="Football" type="checkbox">Football<br>
+    <input name="activities" value="Dance/Zumba" type="checkbox">Dance/Zumba
+    <input name="activities" value="Kick-boxing" type="checkbox">Kick-boxing
+    <input name="activities" value="Aerobics/Fitness/Gym" type="checkbox">Aerobics/Fitness/Gym<br>
+    <input name="activities" value="Swimming/Diving" type="checkbox">Swimming/Diving
+    <input name="activities" value="Tennis" type="checkbox">Tennis
+    <input name="activities" value="Cycling" type="checkbox">Cycling<br>
+    <input name="activities" value="Golf" type="checkbox">Golf
+    <input name="activities" value="Pilates" type="checkbox">Pilates
+    <input name="activities" value="Other" type="checkbox">Other
+</label>
+</div>
+
+<div>
+<p id=other>If other selected, what other activities do you enjoy?</p>
+<textarea name="other" placeholder="Enter alternate activites here..."></textarea>
+
+
+</div>
+
+<div>
+<button type="submit" id="submit">Submit
+
+
+</div>
+
+
+    
+
+</form>
+
+</body>
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
