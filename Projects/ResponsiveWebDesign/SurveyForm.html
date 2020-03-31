@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head title="surveyform">  
+<head>
+    <title="survey-form"></title>
     <link rel="stylesheet" href="SurveyFormStyle.css">
 
 </head>
@@ -28,14 +29,16 @@
     <option disabled selected value>Select one</option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
-</div><br>
+</div>
 </select>
 <div>
 <p id="hours">How many days a week are you physically active or workout for atleast 45 minutes?</p>
- <label>
-     <input name="hours" value="1-2days" type="radio">1-2 Days <br>
-     <input name="hours" value="3-5ays" type="radio">3-5 Days <br>
-     <input name="hours" value="6-7days" type="radio">6-7 Days
+<label for="hours">1-2 Days</label>
+    <input type="radio" name="hours" value="1-2days"> <br>
+ <label for="hours">3-5 Days</label>
+    <input type="radio" name="hours" value="3-5ays"><br>
+<label for="hours">6-7 Days</label>
+    <input type="radio" name="hours" value="6-7days">
  </label>
 </div>
 
@@ -75,8 +78,9 @@
 
 </form>
 
-</body>
+
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
 
 </html>
