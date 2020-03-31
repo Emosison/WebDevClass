@@ -1,0 +1,13 @@
+body{
+    background-color: darkolivegreen;
+}
+@media (max-height:900px){
+    header{
+        font-size: auto;
+    }
+}
+.flex-container {
+    display: flex;
+
+}
+  
