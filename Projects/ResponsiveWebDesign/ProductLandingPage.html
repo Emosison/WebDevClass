@@ -1,46 +1,107 @@
 <!DOCTYPE html>
 <html- lang="en-us">
-<head>
+
     <link rel="stylesheet" href="ProductLandingPage.css">
- </head>
+    <header id="header">
+        <h1></h1>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<header id="header">Master Razor that'll even make the woman scream!</h1>
-    <body>
+        <img id="header-img" src="razor2.jpg" alt="logo">
+        <nav id="nav-bar">
 
-    <!--add photo. commented 03/31-->
-    <div class="flex-container">
- <img id="header-img" src="razor2.jpg">
- <nav id="nav-bar">
-     <li>
-         <a class="nav-link" href="#Electric">Electric</a>
-     </li>
-     <li>
-        <a class="nav-link" href="#Straight">Straight</a>
-    </li>
-    <li>
-        <a class="nav-link" href="#Cartridge">Cartridge</a>
-    </li>
-    <!--need to insert video here. commented 03/31-->
- </nav>
-</div>
+            <li>
+               <a class="nav-link" href="#Electric">Electric</a>
+            </li>
+            <li>
+               <a class="nav-link" href="#Straight">Straight</a>
+            </li>
+            <li>
+               <a class="nav-link" href="#Cartridge">Cartridge</a>
+            </li>
+           </nav>
+       </header>
 
-<div>
- <form id="form" action="https://www.freecodecamp.com/email-submit">
- <label id="email-label" for="email">Email</label>
-<input type="email" id="email" placeholder="Enter your email" required>
 
+<div id="video-submition">
+    <h1>Choosing a marvelous razor that'll even have your woman screaming "WOOOOOOOW!"</h1>
+
+ <label for ="submit">Sign up now for BONUS GIFT</label>
+<input button type="submit" id="submit" required><br>
 </form>
 
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/qzd0UBQO8fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  </div>
+
  <div>
-    <button type="submit" id="submit" required>Start your free trial now!
+
+    <h1 id="Electric">Electric</h1>
+    <p class="pros">PROS: 
+        <ul>
+        <li>Electric razors tend to shave hair away faster than manual razors. Because they roll up the skin, forcing hairs up before cutting them, men don’t need to go over the same area as many times.</li>
+       <li>Although they are heavier than manual razors, they are often more portable, since they can be used anywhere there is an electrical source.</li>
+       <li>Electric razors do not require special grooming items such as shaving cream, soap, gels or even water.</li></ul>
+    </p
+    >
+  <p class="cons">CONS:
+    <ul>
+    <li>Electric razors do not shave as closely as manual razors, so you may not get a super-smooth finish and you may have to shave more frequently if you have normal-to-heavy facial hair.</li>
+    <li>Many men find that using an electrical razor takes practice. Although this type of shaving is considered “safer” than manual shaving, it can still be painful and lead to irritation.</li>
+    <li>Although some new models allow electric razors to be used in wet conditions, the majority cannot be used in the shower. Electric razors also tend to be pretty loud.</li></ul>
+    </p>
+ </div>
+
+ <div>
+    <h1 id="Straight">Straight</h1>
+
+    <p class="pros">PROS:
+    <ul>
+    <li>A straight razor gives the smoothest possible shave…ever. With complete control over one blade, one may adjust the blade to potentially target and cut each individual hair. The closeness and precision offered by a straight razor in unrivaled.</li>
+    <li>This is a razor generally reserved for men, mostly because the notion of shaving other areas of the body is terrifying for most people. One cannot get more manly than shaving with a straight razor– that is unless one chooses to shave Crocodile Dundee style with a Bowie knife (for reference, Crocodile Dundee shaves with both a Bowie knife and a safety razor).</li>
+    <li>A high quality straight razor could last almost forever. Keep it sharpened and honed and one day, it may belong to your grandson.</li></ul>
+</p>
+   
+<p class="cons">CONS:
+    <ul>
+    <li>Shaving with a straight razor is an art and skill that requires a steady hand and a great deal of practice. Shaving your face with a free blade is tricky to say the least.</li>
+    <li>Shaving with a lethal instrument at the throat is not a wise endeavor for someone in a rush. Shaving with a straight razor requires focus and a serious time commitment.</li>
+    <li>Of course the danger of a straight razor is part of the allure and what makes it so badass. A cut from a safety or cartridge razor is no big deal. A cut from this guy could be nasty.</li></ul>
+ </p>
+
 
  </div>
 
 
+ <div>
+    <h1 id="Cartridge">Cartridge</h1>
+    <p class="pros">PROS:
+        <ul>
+        <li>Manual razors provide the closest shave for a longer period of time than other razors.
+    Manual razors are often the first shaving gear a man relies on since they are so easy to use.</li>
+        <li>Blades and equipment are easily replaced.</li>
+        <li>Although their cost can add up over time, manual razors are usually the cheapest and most cost-effective option available to men.</li></ul>
+    </p>
+    
+        <p class="cons">CONS:
+        <ul>
+        <li>Shaving with a manual razor often takes longer, since they require an application of grooming products such as shave cream and aftershave solutions.</li>
+        <li>The blades of manual razors dull quickly and need to be replaced every 4-5 shaves.</li>
+        <li>Shaving with a manual razor increases your chance of getting nicks, cuts and ingrown hairs, as you might have to go over the same area several times to get the closest shave.</li></ul>
+    </p>
+
+
+
+ </div>
 
 
 </body>
+
+<footer>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="enter email for coupons..." required>
+        <input type="submit" id="submit" placeholder="Submit"></input>
+</footer>
 
      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 

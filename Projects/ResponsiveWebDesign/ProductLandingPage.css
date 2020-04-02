@@ -1,5 +1,32 @@
+header {
+    
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    width: 100%
+  }
+  header::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  #header-img {
+    width: 90px;
+    height: 60px;
+    float: left;
+    padding-left: 0%;
+  }
+
+  nav li{
+      float: right;
+      margin-right: 2em;
+  }
 body{
+
     background-color: darkolivegreen;
+    text-align: center;
 }
 @media (max-height:900px){
     header{
@@ -10,4 +37,15 @@ body{
     display: inline-flex;
 
 }
-  
+
+    p{
+        background-color: darkslategray;
+    }
+   h1{
+       background-color:rgb(119, 74, 40);
+   }
+   #header{
+       border-style: double;
+    
+   }
+}
