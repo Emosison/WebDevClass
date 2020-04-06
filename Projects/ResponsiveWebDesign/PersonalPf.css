@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(136, 112, 69);
+    background-color: rgb(71, 14, 14);
 }
 
 h1, h2{
@@ -10,14 +10,16 @@ h1, h2{
    
 }
 
+
+
 #welcome-section{
     height: 100vh;
 }
 
-.github,a {
-    padding-bottom: 200px;
-    text-align: center;
+.github {
+    margin-top: 20vh;
  
+    
 }
 
 @media only screen and (max-width: 1000px) {
@@ -63,12 +65,11 @@ img{
     text-transform: uppercase;
     border: dotted;
     padding: 100px 400px 300px 400px;
-    
+    text-decoration: none;
 }
 
 .project-tile li{
     border-bottom: solid;
     padding: 5em 5em 5em 5em;
-    
 }
 
