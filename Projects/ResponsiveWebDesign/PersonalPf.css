@@ -61,3 +61,15 @@ img{
     margin-right: auto;
 }
 
+.project-tile{
+    text-transform: uppercase;
+    border: dotted;
+    padding: 100px 400px 300px 400px;
+    text-decoration: none;
+}
+
+.project-tile li{
+    border-bottom: solid;
+    padding: 5em 5em 5em 5em;
+}
+
