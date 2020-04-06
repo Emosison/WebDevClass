@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <title="survey-form">How important is working out to you?</title>
+<head>  
     <link rel="stylesheet" href="SurveyFormStyle.css">
 
 </head>
 <body>
 
-    <h1 id="title">Sports & Physical Activity Questionnaire!</h1>
-    <p id="description"> Please complete and submit when finished for an insight on most favored sports and physical activites within the community. 
+    <h1 id="title">Sports & Physical Activity in San Antonio</h1>
+    <p id="description" in p text> Please complete and submit when finished for an insight on most favored sports and physical activites within the community. 
         
     </p>
-  <div id="bio">
-<form id="survey-form">
+  <div>
+<form id="survey-form" id="name">
 <label id="name-label" for="name">Name</label><br>
 <input type="text" id="name" placeholder="Enter your full name" required><br>
 
@@ -24,56 +23,41 @@
 <label id="number-label" for="number">Age</label><br>
 <input type="number" id="number" min="13" max="100" placeholder="Age (required)" required>
 
-   <p>What is your gender?</p>
+    <p>What is your gender?</p>
 <select id="dropdown" name="gender" required>
     <option disabled selected value>Select one</option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
 </div>
+<br>
 </select>
 <div>
 <p id="hours">How many days a week are you physically active or workout for atleast 45 minutes?</p>
-
-    <input type="radio" name="hours" value="1-2days">
-<label for="hours">1-2 Days</label><br>
-    <input type="radio" name="hours" value="3-5ays">
-<label for="hours">3-5 Days</label><br>
-    <input type="radio" name="hours" value="6-7days">
-<label for="hours">6-7 Days</label>
- 
+ <label>
+     <input name="hours" value="1-2days" type="radio">1-2 Days <br>
+     <input name="hours" value="3-5ays" type="radio">3-5 Days <br>
+     <input name="hours" value="6-7days" type="radio">6-7 Days
+ </label>
 </div>
 
 <div>
 <p id="sports-select">Which activites do you partake in? (Select all that apply)</p>
-
-    <input name id="activities" value="Basketball" type="checkbox">
-        <label for="activites">Basketball</label>
-    <input name="activities" value="Soccer" type="checkbox">
-        <label for="activites">Soccer</label>
-    <input name="activities" value="Football" type="checkbox">
-        <label for="activites">Football</label><br>
-    <input name="activities" value="Dance/Zumba" type="checkbox">
-        <label for="activites">Dance/Zumba</label>
-    <input name="activities" value="Kick-boxing" type="checkbox">
-        <label for="activites">Kick-boxing</label>
-    <input name="activities" value="Aerobics/Fitness/Gym" type="checkbox">
-        <label for="activites">Aerobics/Fitness/Gym</label><br>
-    <input name="activities" value="Swimming/Diving" type="checkbox">
-        <label for="activites">Swimming/Diving</label>
-    <input name="activities" value="Tennis" type="checkbox">
-        <label for="activites">Tennis</label>
-    <input name="activities" value="Cycling" type="checkbox">
-        <label for="activites">Cycling</label><br>
-    <input name="activities" value="Golf" type="checkbox">
-        <label for="activites">Golf</label>
-    <input name="activities" value="Pilates" type="checkbox">
-        <label for="activites">Pilates</label>
-    <input name="activities" value="Other" type="checkbox">
-        <label for="activites">Other</label>
-
-
+<label>
+    <input name="activities" value="Basketball" type="checkbox">Basketball
+    <input name="activities" value="Soccer" type="checkbox">Soccer
+    <input name="activities" value="Football" type="checkbox">Football<br>
+    <input name="activities" value="Dance/Zumba" type="checkbox">Dance/Zumba
+    <input name="activities" value="Kick-boxing" type="checkbox">Kick-boxing
+    <input name="activities" value="Aerobics/Fitness/Gym" type="checkbox">Aerobics/Fitness/Gym<br>
+    <input name="activities" value="Swimming/Diving" type="checkbox">Swimming/Diving
+    <input name="activities" value="Tennis" type="checkbox">Tennis
+    <input name="activities" value="Cycling" type="checkbox">Cycling<br>
+    <input name="activities" value="Golf" type="checkbox">Golf
+    <input name="activities" value="Pilates" type="checkbox">Pilates
+    <input name="activities" value="Other" type="checkbox">Other
+</label>
 </div>
-</body>
+
 <div>
 <p id=other>If other selected, what other activities do you enjoy?</p>
 <textarea name="other" placeholder="Enter alternate activites here..."></textarea>
@@ -82,7 +66,7 @@
 </div>
 
 <div>
-<button type="submit" id="submit">Submit</button>
+<button type="submit" id="submit">Submit
 
 
 </div>
@@ -95,6 +79,5 @@
 </body>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
 
 </html>

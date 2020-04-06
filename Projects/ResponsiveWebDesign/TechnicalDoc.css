@@ -1,0 +1,60 @@
+html{
+    color: navy;
+    }
+
+body{
+    background-color: lightskyblue;
+}
+
+@media only screen and (max-width: 900px;)
+    #navbar{
+        position: fixed;
+
+    }
+
+    .nav-link{
+        padding-top: 1em;
+        padding-right: 0em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+    }
+      
+ul {
+       list-style-type: square;
+}
+header {
+    text-align: center;
+    border-style: solid;
+
+}
+
+#navbar {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    position:fixed;
+    width:25%;
+    left:0%;
+}
+
+main#main-doc{
+    grid-area:mainContent;
+  } 
+
+  div.main-body{
+    display: grid;
+    grid-template-columns: minmax(250px, auto)1fr;
+    grid-template-areas:"navbar mainContent";
+      grid-gap:20px;
+  }
+
+
+ 
+
+
+
+
+
+  
+  

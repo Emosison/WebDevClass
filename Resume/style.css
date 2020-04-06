@@ -1,18 +1,15 @@
 h1{
-    text-align: center
-    font-family: ariel; serfif
+    text-align: center;
+    font-family: ariel; serfif;
 
     
 }
-body{
-background-color: rgb(92, 156, 156);
+body {
+background-color: red;
 }
 
-@media(min-width: 800px){
-    body {
-        background-color:pink 
-
-
-
-    }
+.img-circle{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
